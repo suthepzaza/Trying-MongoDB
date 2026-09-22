@@ -1,0 +1,13 @@
+method: post
+url: http://localhost:3000/api/students
+requestBody:
+  type: application/json
+  data: "{\r
+
+    \  \"name\": \"Mek\",\r
+
+    \  \"major\": \"IT\",\r
+
+    \  \"score\": 30\r
+
+    }"

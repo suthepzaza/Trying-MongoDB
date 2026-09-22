@@ -1,0 +1,2 @@
+method: get
+url: http://localhost:3000/api/students/6aa76191bed4c16e152bc9ea

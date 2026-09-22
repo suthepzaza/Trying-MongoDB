@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "name": "CSC220 Student API",
+  "description": "",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git",
+    "apidog.private.*",
+    ".apidog"
+  ]
+}
