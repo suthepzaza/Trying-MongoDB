@@ -1,0 +1,2 @@
+method: delete
+url: http://localhost:3000/api/students/6ab09e3468b2f17e29d27522

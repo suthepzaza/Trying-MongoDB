@@ -1,0 +1,5 @@
+method: patch
+url: http://localhost:3000/api/students/6aa76191bed4c16e152bc9ea
+requestBody:
+  type: application/json
+  data: "{\r\n\"score\": 95\r\n}"
