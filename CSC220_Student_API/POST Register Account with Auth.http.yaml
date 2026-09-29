@@ -1,0 +1,11 @@
+method: post
+url: http://localhost:3000/api/auth/register
+requestBody:
+  type: application/json
+  data: "{\r
+
+    \"email\": \"student1@example.com\",\r
+
+    \"password\": \"password123\"\r
+
+    }"
