@@ -76,7 +76,7 @@ router.patch("/:id", auth, async (req, res) => {
 });
 
 // DELETE student - token required
-router.delete("/:id", auth, async (req, res) => {
+router.delete("/:id", auth, requireRole("admin"), async (req, res) => {
     try {
         const deleted = await Student.findByIdAndDelete(req.params.id);
 
